@@ -1,0 +1,27 @@
+/* src/components/Map/MapComponent.css */
+.map-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilos para la visualización de las distancias */
+.distances {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.distances h3 {
+  margin-bottom: 10px;
+}
+
+.distances ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.distances li {
+  margin: 5px 0;
+}

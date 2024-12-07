@@ -1,0 +1,57 @@
+/* src/components/Sidebar/SidebarComponent.css */
+
+/* Contenedor de la barra de búsqueda y los botones */
+.search-bar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  /* Alineación y estilo del formulario */
+  form {
+    display: flex;
+    flex-direction: column;  /* Los elementos estarán en columna */
+    gap: 10px; /* Espacio entre los elementos */
+    width: 100%;
+  }
+  
+  /* Estilo para el campo de búsqueda */
+  input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;  /* El input ocupa el 100% del espacio disponible */
+  }
+  
+  /* Contenedor para los botones */
+  .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between; /* Para distribuir los botones equitativamente */
+    width: auto;  /* Los botones ocuparán todo el ancho disponible */
+  }
+  
+  /* Estilo para los botones */
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    flex: 1; /* Los botones tendrán el mismo tamaño */
+  }
+  
+  /* Botón "Buscar" verde */
+  button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  /* Botón "Reiniciar" rojo */
+  button[type="button"].reset-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  

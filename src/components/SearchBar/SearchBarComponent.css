@@ -1,0 +1,51 @@
+.search-bar-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;  /* Alineamos los elementos del formulario en columna */
+    gap: 10px; /* Espacio entre el input y los botones */
+    width: 100%;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;  /* El input ocupa todo el espacio disponible */
+  }
+  
+  /* Contenedor de los botones */
+  .button-container {
+    display: flex;
+    flex-direction: row;  /* Los botones estarán alineados en fila */
+    gap: 10px;
+    width: 100%;  /* Los botones ocuparán el 100% del espacio disponible */
+  }
+  
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-grow: 1;  /* Los botones tendrán el mismo tamaño */
+  }
+  
+  /* Botón "Buscar" verde */
+  button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  /* Botón "Reiniciar" rojo */
+  button[type="button"].reset-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
